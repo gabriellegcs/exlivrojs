@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a = "20";
+        const b = a * 2; // b = 40
+        const c = a / 2; // c = 10
+        const d = a - 2; // d = 18
+        const e = a + 2; // e = 202
+
+        alert('e = ' + e); // exibe o valor da variável e.
+
+        /* nas operações de multiplicação, divisão e subtração a linguagem converte texto (string) em número e o resultado será o esperado de operações aritméticas. Contudo, quando realizamos adição, o valor de retorno é difierente do padrão, não sendo uma operação aritmética neste caso, pois a linguagem concatena (+) o texto com o número (o "20" da varíavel a com o 2, que resulta em 202).  Para resolver esse problema, precisamos converter o texto em número. Isso pode ser feito, em JS, pelo métodos Number(), parseInt() e parseFloat().
+
+        Exemplo: 
+
+        const e = Number(a) + 2 // agora sim o resultado seria e = 22 
+        
+        Agora a variável "a" é inicialmente convertida em número, e, após, ocorre a soma do valor 2, gerando como resultado o valor 22. 
+
+        */
+
+
+
+    </script>
+</body>
+</html>
