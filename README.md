@@ -1,7 +1,9 @@
 # exlivrojs
-Exercícios do livro 'Lógica de programação de algoritmos com JavaScript'
+Exemplos e Exercícios do livro 'Lógica de programação de algoritmos com JavaScript'.
 
-CAPÍTULO 1:
+CAPÍTULO 1:<br>
+
+Exemplos:<br>
 
 ex1_1 = saída de dados com alert;<br>
 ex1_2 = entrada de dados e uso de variáveis;<br>
