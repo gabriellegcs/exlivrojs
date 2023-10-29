@@ -6,9 +6,15 @@
     <title>Exercício 2, capítulo 1</title>
 </head>
 <body>
-    <script>
-const nome = prompt('Qual é o seu nome?');
-alert('Olá, ' + nome);
+  <script>
+const nome = prompt('Qual é o seu nome?'); //declara uma variável e executa o método prompt(). O nome digitado pelo usuário na caixa de diálogo do prompt é atribuído à varíavel nome.
+alert('Olá, ' + nome); // apresenta o texto fixo entre aspas simples 'Olá, ' concatenado (+) com o conteúdo da variável nome.
+
+/* outra forma de exibir mensagens que contenham um texto fixo e o conteúdo de uma veriável em JS é com o uso da chamada 
+Templete Strings. Deve-se limitar a mensagem entre crases (``) e inserir o nome das variáveis usando a sintaxe: ${nomeVar}.
+
+Exemplo: alert('Olá, '${nome}); */
+
     </script>
 </body>
 </html>
