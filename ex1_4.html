@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const fruta = 'Banana';
+        const preco = 3.50;
+        const levar = true;
+        let novoValor
+
+        console.log(typeof fruta);   // string
+        console.log(typeof preco);  // number
+        console.log(typeof levar);  // boolean
+        console.log(typeof novoValor);  //undefined  
+        
+        /* a declaração de uma variável com const exige uma atribuição de valor - que se manterá fixo durante o programa ou bloco de código onde foi declarada.
+        
+        Além da possibilidade de verificar se uma variável é do tipo Number, também é possível verificar se o número é inteiro ou possui decimais: Number.isInteger() faz essa verificação. 
+
+        Exemplo:
+            */
+
+            console.log(Number.isInteger(12));   // true
+            console.log(Number.isInteger(3.50))     // false
+
+    </script>
+</body>
+</html>
